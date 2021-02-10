@@ -12,7 +12,7 @@
 }
 
 a, #button {
-    transition: all 0.2s linear;
+    transition: all 0.1s cubic-bezier(0.23, 0.46, 1, 2.74)
 }
 
 header {
@@ -51,7 +51,7 @@ a:hover {
     color: var(--white);
 }
 
-#button {
+.button {
     background-color: var(--orange-soda);
     display: inline-block;
     text-align: center;
@@ -61,17 +61,16 @@ a:hover {
     padding: 0 20px;
 }
 
-#button::before {
+.button::before {
     content: none;
 }
 
-#button:hover {
+.button:hover {
     transform: scale(1.05);
 }
 
 .banner {
     height: 807px;
-    background-color: rgb(50, 0, 0);
     border-bottom: 10px solid var(--black);
     display: flex;
 }
@@ -88,6 +87,43 @@ a:hover {
     height: inherit;
     border-right: 5px solid var(--black);
     background-image: url('../assets/backgrounds/leftbg.png');
+    display: flex;
+    flex-direction: column;
+    padding: 115px 90px;
+}
+
+.title-area {
+    background-color: var(--jet);
+    max-width: 630px;
+    font-family: "Press Start 2P", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 5px 5px 0px var(--black);
+}
+
+h1, h2 {
+    margin: 20px;
+    text-shadow: 5px 5px 0px var(--black);
+}
+
+h1 {
+    font-size: 40px;
+    color: var(--orange-soda);
+}
+
+h2 {
+    font-size: 30px;
+    color: var(--white);
+}
+
+.buttons-area {
+    margin-top: 40px;
+    max-width: 630px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .right-area {
