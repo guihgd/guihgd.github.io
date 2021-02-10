@@ -1,13 +1,14 @@
 :root {
-    --blue: #00f;
-    --blue-background: #020825;
-    --blue-primary: #0B1D73;
-    --blue-secondary: #04114E;
-    --blue-tertiary: #070F30;
-    --blue-quaternary: #04081C;
+    --cyan-process: #30BCED;
+    --jet: #303036;
+    --magnolia: #FFFAFF;
+    --orange-soda: #FC5130;
+    --rich-black: #050401;
+
+    --white: #FFF;
+    --white-secondary: #F0F0F0;
+
     --black: #000;
-    --white: #fff;
-    --white-primary: #ccc;
 }
 
 a, #button {
@@ -19,7 +20,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
-    background-color: var(--blue-background);
+    background-color: var(--cyan-process);
     border-bottom: 10px solid var(--black);
 }
 
@@ -32,13 +33,13 @@ a::before {
     width: 10px;
     height: 10px;
     margin-right: 10px;
-    background-color: var(--blue-primary);
+    background-color: var(--orange-soda);
 }
 
 a {
     display: inline-flex;
     align-items: center;
-    color: var(--white-primary);
+    color: var(--white-secondary);
     font-family: "Fira Code", Arial;
     font-size: 20px;
     font-weight: 500;
@@ -51,16 +52,46 @@ a:hover {
 }
 
 #button {
-    background-color: var(--blue-secondary);
+    background-color: var(--orange-soda);
     display: inline-block;
-    height: 60px;
-    width: 170px;
     text-align: center;
     line-height: 60px;
-    box-shadow: 5px 5px 0px #000000;
+    box-shadow: 5px 5px 0px var(--black);
     margin-right: 0;
+    padding: 0 20px;
+}
+
+#button::before {
+    content: none;
 }
 
 #button:hover {
-    background-color: var(--blue-primary);
+    transform: scale(1.05);
+}
+
+.banner {
+    height: 807px;
+    background-color: rgb(50, 0, 0);
+    border-bottom: 10px solid var(--black);
+    display: flex;
+}
+
+.left-area,
+.right-area {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.left-area {
+    width: 68%;
+    height: inherit;
+    border-right: 5px solid var(--black);
+    background-image: url('../assets/backgrounds/leftbg.png');
+}
+
+.right-area {
+    flex: 1;
+    height: inherit;
+    background-image: url('../assets/backgrounds/rightbg.png');
 }
