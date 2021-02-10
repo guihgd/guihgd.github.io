@@ -1,0 +1,66 @@
+:root {
+    --blue: #00f;
+    --blue-background: #020825;
+    --blue-primary: #0B1D73;
+    --blue-secondary: #04114E;
+    --blue-tertiary: #070F30;
+    --blue-quaternary: #04081C;
+    --black: #000;
+    --white: #fff;
+    --white-primary: #ccc;
+}
+
+a, #button {
+    transition: all 0.2s linear;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: var(--blue-background);
+    border-bottom: 10px solid var(--black);
+}
+
+nav {
+    text-align: right;
+}
+
+a::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    background-color: var(--blue-primary);
+}
+
+a {
+    display: inline-flex;
+    align-items: center;
+    color: var(--white-primary);
+    font-family: "Fira Code", Arial;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+a:hover {
+    color: var(--white);
+}
+
+#button {
+    background-color: var(--blue-secondary);
+    display: inline-block;
+    height: 60px;
+    width: 170px;
+    text-align: center;
+    line-height: 60px;
+    box-shadow: 5px 5px 0px #000000;
+    margin-right: 0;
+}
+
+#button:hover {
+    background-color: var(--blue-primary);
+}
