@@ -1,0 +1,28 @@
+.banner {
+    height: 807px;
+    border-bottom: 10px solid var(--rich-black);
+    display: flex;
+}
+
+.left-area,
+.right-area {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.left-area {
+    width: 68%;
+    height: inherit;
+    border-right: 5px solid var(--rich-black);
+    background-image: url('../../assets/backgrounds/leftbg.png');
+    display: flex;
+    flex-direction: column;
+    padding: 115px 90px;
+}
+
+.right-area {
+    flex: 1;
+    height: inherit;
+    background-image: url('../../assets/backgrounds/rightbg.png');
+}

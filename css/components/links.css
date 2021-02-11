@@ -1,0 +1,22 @@
+.anchor::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    background-color: var(--orange-soda);
+}
+
+.anchor {
+    display: inline-flex;
+    align-items: center;
+    color: var(--white-secondary);
+    font-family: "Fira Code", Arial;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.anchor:hover {
+    color: var(--white);
+}

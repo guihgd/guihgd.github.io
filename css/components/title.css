@@ -1,0 +1,26 @@
+.title-area {
+    background-color: var(--jet);
+    max-width: 630px;
+    font-family: "Press Start 2P", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 10px 10px 0px var(--rich-black);
+}
+
+.title, .subtitle {
+    margin: 20px;
+    text-shadow: 5px 5px 0px var(--rich-black);
+}
+
+.title {
+    font-size: 40px;
+    color: var(--orange-soda);
+}
+
+.subtitle {
+    font-size: 30px;
+    color: var(--white);
+}

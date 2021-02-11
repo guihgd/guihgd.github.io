@@ -1,0 +1,24 @@
+.buttons-area {
+    margin-top: 40px;
+    max-width: 630px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button {
+    background-color: var(--orange-soda);
+    display: inline-block;
+    text-align: center;
+    line-height: 60px;
+    box-shadow: 5px 5px 0px var(--rich-black);
+    margin-right: 0;
+    padding: 0 20px;
+}
+
+.button::before {
+    content: none;
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
