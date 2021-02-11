@@ -1,12 +1,32 @@
 .banner {
     padding: 115px 90px;
-    background-image: url('../../assets/backgrounds/bg.svg');
+    background-image: url('../../assets/backgrounds/bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
 }
 
+.banner .box {
+    background-color: var(--jet);
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 10px 10px 0px var(--rich-black);
+}
+
 .-titlebanner, .-subtitlebanner {
     margin: 20px;
     text-shadow: 5px 5px 0px var(--rich-black);
+}
+
+.banner .navigation {
+    display: flex;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.banner .wrapper {
+    max-width: 800px;
 }

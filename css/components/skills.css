@@ -3,12 +3,7 @@
     padding: 50px 0;
 }
 
-.-skilltitle {
-    color: var(--white);
-    margin-bottom: 60px;
-}
-
-.skillbox {
+.skills .wrapper {
     width: 430px;
     height: 90px;
     margin-bottom: 40px;
@@ -18,10 +13,6 @@
 
 .skillimg {
     margin-right: 20px;
-}
-
-.subtitle {
-    font-size: 25px;
 }
 
 .skillinfobox {
