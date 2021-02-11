@@ -1,0 +1,10 @@
+.section {
+    width: 100%;
+    height: 800px;
+
+    border-bottom: 10px solid var(--rich-black);
+}
+
+.-blueborder {
+    border-bottom: 10px solid var(--cyan-process);
+}

@@ -1,0 +1,55 @@
+.skills {
+    background-color: var(--orange-soda);
+    padding: 50px 0;
+}
+
+.-skilltitle {
+    color: var(--white);
+    margin-bottom: 60px;
+}
+
+.skillbox {
+    width: 430px;
+    height: 90px;
+    margin-bottom: 40px;
+
+    display: flex;
+}
+
+.skillimg {
+    margin-right: 20px;
+}
+
+.subtitle {
+    font-size: 25px;
+}
+
+.skillinfobox {
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.progressbar {
+    width: 320px;
+    height: 40px;
+    border-radius: 0;
+    border: 5px solid var(--rich-black);
+}
+
+.progressbar::-webkit-progress-bar {
+    background-color: var(--white);
+}
+
+.progressbar::-moz-progress-bar {
+    background-color: var(--white);
+}
+
+.progressbar::-webkit-progress-value {
+    background-color: var(--cyan-process);
+}
+
+.progressbar::-moz-progress-value {
+    background-color: var(--cyan-process);
+}

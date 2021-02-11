@@ -1,26 +1,21 @@
 .title-area {
     background-color: var(--jet);
-    max-width: 630px;
-    font-family: "Press Start 2P", sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: inline-block;
     align-items: center;
+    text-align: center;
     padding: 20px;
     box-shadow: 10px 10px 0px var(--rich-black);
-}
-
-.title, .subtitle {
-    margin: 20px;
-    text-shadow: 5px 5px 0px var(--rich-black);
 }
 
 .title {
     font-size: 40px;
     color: var(--orange-soda);
+    font-family: "Press Start 2P", sans-serif;
+    text-align: center;
 }
 
 .subtitle {
     font-size: 30px;
+    font-family: "Press Start 2P", sans-serif;
     color: var(--white);
 }
