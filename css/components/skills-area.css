@@ -1,9 +1,9 @@
-.skills {
+.skills-area {
     background-color: var(--orange-soda);
     padding: 50px 0;
 }
 
-.skills .wrapper {
+.skills-area .wrapper {
     width: 430px;
     height: 90px;
     margin-bottom: 40px;

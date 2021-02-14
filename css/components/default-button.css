@@ -1,4 +1,4 @@
-.button {
+.default-button {
     background-color: var(--orange-soda);
     display: inline-block;
     text-align: center;
@@ -8,10 +8,10 @@
     padding: 0 20px;
 }
 
-.button::before {
+.default-button::before {
     content: none;
 }
 
-.button:hover {
+.default-button:hover {
     transform: scale(1.05);
 }

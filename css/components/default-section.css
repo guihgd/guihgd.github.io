@@ -1,0 +1,16 @@
+.default-section {
+    border-bottom: 10px solid var(--rich-black);
+    padding: 50px 0 100px 0;
+}
+
+.default-section.-blueborder {
+    border-bottom-color: var(--cyan-process);
+}
+
+.default-section.-bgblack {
+    background-color: var(--rich-black);
+}
+
+.default-section.-orangeborder {
+    border-bottom-color: var(--orange-soda);
+}

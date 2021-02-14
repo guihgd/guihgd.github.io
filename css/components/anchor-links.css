@@ -1,4 +1,4 @@
-.anchor::before {
+.anchor-links::before {
     content: "";
     width: 10px;
     height: 10px;
@@ -6,7 +6,7 @@
     background-color: var(--orange-soda);
 }
 
-.anchor {
+.anchor-links {
     display: inline-flex;
     align-items: center;
     color: var(--white-secondary);
@@ -17,6 +17,6 @@
     margin-right: 30px;
 }
 
-.anchor:hover {
+.anchor-links:hover {
     color: var(--white);
 }
