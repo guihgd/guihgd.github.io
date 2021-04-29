@@ -6,3 +6,8 @@
     display: flex;
     justify-content: space-between;
 }
+
+.container-wrapper.-fullWidth {
+    max-width: 100%;
+    margin: 0;
+}
