@@ -1,0 +1,47 @@
+.node-card {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 0px 25px;
+}
+
+.node-card::before {
+    content: '';
+    height: 40px;
+    width: 8px;
+    box-sizing: border-box;
+    border-left: 4px dashed #000;
+    position: absolute;
+    top: 35px;
+}
+
+.node-card .subtitle {
+    font-size: 25px;
+    font-weight: 400;
+    color: var(--orange-soda);
+    margin-bottom: 50px;
+}
+
+.node-card .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 140px;
+    padding: 0 20px;
+    border: 5px solid var(--black);
+    background-color: #CEB02A;
+}
+
+.node-card .logo.-caelum {
+    padding: 5px 0;
+    background-color: transparent;
+}
+
+.node-card .logo.-caelum img {
+    height: 130px;
+}
+
+.node-card .logo.-bgOrange {
+    background-color: var(--orange-soda);
+}
