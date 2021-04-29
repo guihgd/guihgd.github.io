@@ -14,3 +14,7 @@
 .default-section.-orangeborder {
     border-bottom-color: var(--orange-soda);
 }
+
+.default-section.-bgcyan{
+    background-color: var(--cyan-process);
+}
