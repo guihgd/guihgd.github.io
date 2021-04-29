@@ -18,3 +18,7 @@
 .default-section.-bgcyan{
     background-color: var(--cyan-process);
 }
+
+.default-section.-bgjet {
+    background-color: var(--jet);
+}

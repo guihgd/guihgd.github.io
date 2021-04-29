@@ -25,6 +25,8 @@
         <link rel="stylesheet" href="css/components/button-arrow.css">
         <link rel="stylesheet" href="css/components/node-card.css">
         <link rel="stylesheet" href="css/components/main-carousel.css">
+        <link rel="stylesheet" href="css/components/main-form.css">
+        <link rel="stylesheet" href="css/components/main-footer.css">
     </head>
     <body>
         <header class="main-header">
@@ -141,56 +143,48 @@
                                 <img src="assets/images/logo-locaweb.png" alt="Locaweb Logo">
                             </div>
                         </figure>
-
                         <figure class="node-card">
                             <figcaption class="subtitle">2014</figcaption>
                             <div class="logo -caelum">
                                 <img src="assets/images/logo-caelum.png" alt="Caelum Logo">
                             </div>
                         </figure>
-
                         <figure class="node-card">
                             <figcaption class="subtitle">2016</figcaption>
                             <div class="logo -bgOrange">
                                 <img src="assets/images/logo-getninjas.png" alt="GetNinjas Logo">
                             </div>
                         </figure>
-
                         <figure class="node-card">
                             <figcaption class="subtitle">2017</figcaption>
                             <div class="logo -caelum">
                                 <img src="assets/images/logo-caelum.png" alt="Caelum Logo">
                             </div>
                         </figure>
-
                         <figure class="node-card">
                             <figcaption class="subtitle">2018</figcaption>
                             <div class="logo">
                                 <img src="assets/images/logo-impulso.png" alt="Impulso Logo">
                             </div>
                         </figure>
-
                         <figure class="node-card">
                             <figcaption class="subtitle">2019</figcaption>
                             <div class="logo -bgOrange">
                                 <img src="assets/images/logo-collabcode.png" alt="CollabCode Logo">
                             </div>
                         </figure>
-
                         <figure class="node-card">
                             <figcaption class="subtitle">2019</figcaption>
                             <div class="logo -bgOrange">
                                 <img src="assets/images/logo-collabcode.png" alt="CollabCode Logo">
                             </div>
                         </figure>
-
                         <figure class="node-card">
                             <figcaption class="subtitle">2019</figcaption>
                             <div class="logo -bgOrange">
                                 <img src="assets/images/logo-collabcode.png" alt="CollabCode Logo">
                             </div>
                         </figure>
-
                         <figure class="node-card">
                             <figcaption class="subtitle">2019</figcaption>
                             <div class="logo -bgOrange">
@@ -201,11 +195,34 @@
                 </div>
                 <button class="button-arrow -right"><span class="content">Avançar</span></button>
             </section>
-
             <p class="main-description">
                 Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já trabalhou nas mais diversas áreas. Foi palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir descobrindo seu caminho conforme o percorre. Marco também tem uma crescente presença em comunidades de UX e Front-end, trabalhando para uní-las, palestra em empresas e eventos como o WebBR, escreve em diversos blogs como o da Caelum, o Pinceladas da Web e seu Medium, quando não está jogando Airsoft ou trocando ideias com amigos.
             </p>
         </section>
+
+        <section class="default-section -bgjet">
+            <h1 class="main-title -second">Contato</h1>
+            <form class="main-form" method="GET">
+                <label for="name" class="inputName">Nome</label>
+                <input type="text" name="Nome" id="name" class="input" required>
+                
+                <label for="email" class="inputName">Email</label>
+                <input type="email" name="E-mail" id="email" class="input" required>
+
+                <label for="message" class="inputName">Mensagem</label>
+                <textarea name="Mensagem" id="message" class="input -textArea" required></textarea>
+
+                <input type="submit" value="Enviar" class="input -submit">
+            </form>
+        </section>
+
+        <footer class="main-footer">
+            <div class="socials">
+                <a href="#" class="toSocial"><img src="assets/icon/twitter 1.png" alt="Twitter" class="socialImg"></a>
+                <a href="#" class="toSocial"><img src="assets/icon/youtube 1.png" alt="YouTube" class="socialImg"></a>
+                <a href="#" class="toSocial"><img src="assets/icon/discord 1.png" alt="Discord" class="socialImg"></a>
+            </div>
+        </footer>
         <script src="js/components/main-carousel.js"></script>
     </body>
 </html>
