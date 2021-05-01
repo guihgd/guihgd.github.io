@@ -1,10 +1,9 @@
 .container-wrapper {
     max-width: 1150px;
-
     margin: auto;
-
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .container-wrapper.-fullWidth {
